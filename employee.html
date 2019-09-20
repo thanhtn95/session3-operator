@@ -7,7 +7,7 @@
 <body>
 <script>
     let login = prompt("Enter  Your Position:", "");
-    let ms = (login == "Employee") ? "Hello" : (login == "Director") ? "Greetings Boss!!!" : (login == "") ? "No Login Input" : "";
+    let ms = (login == "Employee".toLocaleLowerCase()) ? "Hello" : (login == "Director".toLocaleLowerCase()) ? "Greetings Boss!!!" : (login == "") ? "No Login Input" : "";
     alert(ms);
 </script>
 </body>
